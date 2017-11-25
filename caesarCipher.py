@@ -1,6 +1,6 @@
 # Caesar cipher
 # http://inventwithpython.com/hacking (BSD Licensed)
-import pyperclip
+import pyperclip #this si only needed for this line: pyperclip.copy(translated), in order to copy the enc'd message. 
 
 #setup
 message = 'This is a SECRET'
