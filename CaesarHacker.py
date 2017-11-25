@@ -1,7 +1,5 @@
 # Caesar Cipher Hacker
-# http://inventwithpython.com/hacking (BSD Licensed)
-
-import pyperclip
+# based off of http://inventwithpython.com/hacking (BSD Licensed)
 
 #setup
 mode = 'encrypt' #set to encrypt or decrypt
@@ -34,5 +32,5 @@ for key in range(len(LETTERS)):
 #display current key and its description
     print('Key #%s: %s' % (key, translated))
 
-###Add code to allow lowercase enc/dec
-##https://github.com/a0xnirudh/Exploits-and-Scripts/blob/master/Mystery%20Twister%20Solutions/Caesar%20Brute%20Force.py
+###TODO Add code to allow lowercase enc/dec
+##look at this script :: https://github.com/a0xnirudh/Exploits-and-Scripts/blob/master/Mystery%20Twister%20Solutions/Caesar%20Brute%20Force.py
