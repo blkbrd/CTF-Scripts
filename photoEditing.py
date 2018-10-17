@@ -1,5 +1,6 @@
+# lillian 
 # working with images, basics
-# from https://automatetheboringstuff.com/chapter17/        guide
+# based off of script from https://automatetheboringstuff.com/chapter17/guide
 
 from PIL import Image, ImageColor
 crow = Image.open('crow.png')
